@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA8220ED1BA4AF020029D8BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8220EC1BA4AF020029D8BB /* main.m */; };
+		AA8220F01BA4AF020029D8BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8220EF1BA4AF020029D8BB /* AppDelegate.m */; };
+		AA8220F31BA4AF020029D8BB /* NearestPizza.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA8220F11BA4AF020029D8BB /* NearestPizza.xcdatamodeld */; };
+		AA8220F61BA4AF030029D8BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8220F51BA4AF030029D8BB /* ViewController.m */; };
+		AA8220F91BA4AF030029D8BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA8220F71BA4AF030029D8BB /* Main.storyboard */; };
+		AA8220FB1BA4AF030029D8BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA8220FA1BA4AF030029D8BB /* Images.xcassets */; };
+		AA8220FE1BA4AF030029D8BB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA8220FC1BA4AF030029D8BB /* LaunchScreen.xib */; };
+		AA82210A1BA4AF030029D8BB /* NearestPizzaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8221091BA4AF030029D8BB /* NearestPizzaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA8221041BA4AF030029D8BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA8220DF1BA4AF020029D8BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA8220E61BA4AF020029D8BB;
+			remoteInfo = NearestPizza;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA8220E71BA4AF020029D8BB /* NearestPizza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NearestPizza.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA8220EB1BA4AF020029D8BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA8220EC1BA4AF020029D8BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA8220EE1BA4AF020029D8BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA8220EF1BA4AF020029D8BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA8220F21BA4AF020029D8BB /* NearestPizza.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NearestPizza.xcdatamodel; sourceTree = "<group>"; };
+		AA8220F41BA4AF020029D8BB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AA8220F51BA4AF030029D8BB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA8220F81BA4AF030029D8BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA8220FA1BA4AF030029D8BB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AA8220FD1BA4AF030029D8BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AA8221031BA4AF030029D8BB /* NearestPizzaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NearestPizzaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA8221081BA4AF030029D8BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA8221091BA4AF030029D8BB /* NearestPizzaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NearestPizzaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA8220E41BA4AF020029D8BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA8221001BA4AF030029D8BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA8220DE1BA4AF020029D8BB = {
+			isa = PBXGroup;
+			children = (
+				AA8220E91BA4AF020029D8BB /* NearestPizza */,
+				AA8221061BA4AF030029D8BB /* NearestPizzaTests */,
+				AA8220E81BA4AF020029D8BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA8220E81BA4AF020029D8BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA8220E71BA4AF020029D8BB /* NearestPizza.app */,
+				AA8221031BA4AF030029D8BB /* NearestPizzaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA8220E91BA4AF020029D8BB /* NearestPizza */ = {
+			isa = PBXGroup;
+			children = (
+				AA8220EE1BA4AF020029D8BB /* AppDelegate.h */,
+				AA8220EF1BA4AF020029D8BB /* AppDelegate.m */,
+				AA8220F41BA4AF020029D8BB /* ViewController.h */,
+				AA8220F51BA4AF030029D8BB /* ViewController.m */,
+				AA8220F71BA4AF030029D8BB /* Main.storyboard */,
+				AA8220FA1BA4AF030029D8BB /* Images.xcassets */,
+				AA8220FC1BA4AF030029D8BB /* LaunchScreen.xib */,
+				AA8220F11BA4AF020029D8BB /* NearestPizza.xcdatamodeld */,
+				AA8220EA1BA4AF020029D8BB /* Supporting Files */,
+			);
+			path = NearestPizza;
+			sourceTree = "<group>";
+		};
+		AA8220EA1BA4AF020029D8BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA8220EB1BA4AF020029D8BB /* Info.plist */,
+				AA8220EC1BA4AF020029D8BB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA8221061BA4AF030029D8BB /* NearestPizzaTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA8221091BA4AF030029D8BB /* NearestPizzaTests.m */,
+				AA8221071BA4AF030029D8BB /* Supporting Files */,
+			);
+			path = NearestPizzaTests;
+			sourceTree = "<group>";
+		};
+		AA8221071BA4AF030029D8BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA8221081BA4AF030029D8BB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA8220E61BA4AF020029D8BB /* NearestPizza */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA82210D1BA4AF030029D8BB /* Build configuration list for PBXNativeTarget "NearestPizza" */;
+			buildPhases = (
+				AA8220E31BA4AF020029D8BB /* Sources */,
+				AA8220E41BA4AF020029D8BB /* Frameworks */,
+				AA8220E51BA4AF020029D8BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NearestPizza;
+			productName = NearestPizza;
+			productReference = AA8220E71BA4AF020029D8BB /* NearestPizza.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA8221021BA4AF030029D8BB /* NearestPizzaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA8221101BA4AF030029D8BB /* Build configuration list for PBXNativeTarget "NearestPizzaTests" */;
+			buildPhases = (
+				AA8220FF1BA4AF030029D8BB /* Sources */,
+				AA8221001BA4AF030029D8BB /* Frameworks */,
+				AA8221011BA4AF030029D8BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA8221051BA4AF030029D8BB /* PBXTargetDependency */,
+			);
+			name = NearestPizzaTests;
+			productName = NearestPizzaTests;
+			productReference = AA8221031BA4AF030029D8BB /* NearestPizzaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA8220DF1BA4AF020029D8BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Azat Almeev";
+				TargetAttributes = {
+					AA8220E61BA4AF020029D8BB = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					AA8221021BA4AF030029D8BB = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = AA8220E61BA4AF020029D8BB;
+					};
+				};
+			};
+			buildConfigurationList = AA8220E21BA4AF020029D8BB /* Build configuration list for PBXProject "NearestPizza" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA8220DE1BA4AF020029D8BB;
+			productRefGroup = AA8220E81BA4AF020029D8BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA8220E61BA4AF020029D8BB /* NearestPizza */,
+				AA8221021BA4AF030029D8BB /* NearestPizzaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA8220E51BA4AF020029D8BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA8220F91BA4AF030029D8BB /* Main.storyboard in Resources */,
+				AA8220FE1BA4AF030029D8BB /* LaunchScreen.xib in Resources */,
+				AA8220FB1BA4AF030029D8BB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA8221011BA4AF030029D8BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA8220E31BA4AF020029D8BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA8220F31BA4AF020029D8BB /* NearestPizza.xcdatamodeld in Sources */,
+				AA8220F01BA4AF020029D8BB /* AppDelegate.m in Sources */,
+				AA8220F61BA4AF030029D8BB /* ViewController.m in Sources */,
+				AA8220ED1BA4AF020029D8BB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA8220FF1BA4AF030029D8BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA82210A1BA4AF030029D8BB /* NearestPizzaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA8221051BA4AF030029D8BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA8220E61BA4AF020029D8BB /* NearestPizza */;
+			targetProxy = AA8221041BA4AF030029D8BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA8220F71BA4AF030029D8BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA8220F81BA4AF030029D8BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA8220FC1BA4AF030029D8BB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA8220FD1BA4AF030029D8BB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA82210B1BA4AF030029D8BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA82210C1BA4AF030029D8BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA82210E1BA4AF030029D8BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NearestPizza/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA82210F1BA4AF030029D8BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NearestPizza/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AA8221111BA4AF030029D8BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NearestPizzaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NearestPizza.app/NearestPizza";
+			};
+			name = Debug;
+		};
+		AA8221121BA4AF030029D8BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NearestPizzaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NearestPizza.app/NearestPizza";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA8220E21BA4AF020029D8BB /* Build configuration list for PBXProject "NearestPizza" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA82210B1BA4AF030029D8BB /* Debug */,
+				AA82210C1BA4AF030029D8BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA82210D1BA4AF030029D8BB /* Build configuration list for PBXNativeTarget "NearestPizza" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA82210E1BA4AF030029D8BB /* Debug */,
+				AA82210F1BA4AF030029D8BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA8221101BA4AF030029D8BB /* Build configuration list for PBXNativeTarget "NearestPizzaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA8221111BA4AF030029D8BB /* Debug */,
+				AA8221121BA4AF030029D8BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AA8220F11BA4AF020029D8BB /* NearestPizza.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AA8220F21BA4AF020029D8BB /* NearestPizza.xcdatamodel */,
+			);
+			currentVersion = AA8220F21BA4AF020029D8BB /* NearestPizza.xcdatamodel */;
+			path = NearestPizza.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AA8220DF1BA4AF020029D8BB /* Project object */;
+}
