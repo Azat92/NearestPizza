@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FC91F388C9CF0E2276CCE1A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC094E478369837E4050107 /* libPods.a */; };
 		AA8220ED1BA4AF020029D8BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8220EC1BA4AF020029D8BB /* main.m */; };
 		AA8220F01BA4AF020029D8BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8220EF1BA4AF020029D8BB /* AppDelegate.m */; };
 		AA8220F31BA4AF020029D8BB /* NearestPizza.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA8220F11BA4AF020029D8BB /* NearestPizza.xcdatamodeld */; };
-		AA8220F61BA4AF030029D8BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8220F51BA4AF030029D8BB /* ViewController.m */; };
 		AA8220F91BA4AF030029D8BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA8220F71BA4AF030029D8BB /* Main.storyboard */; };
 		AA8220FB1BA4AF030029D8BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA8220FA1BA4AF030029D8BB /* Images.xcassets */; };
 		AA8220FE1BA4AF030029D8BB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA8220FC1BA4AF030029D8BB /* LaunchScreen.xib */; };
 		AA82210A1BA4AF030029D8BB /* NearestPizzaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8221091BA4AF030029D8BB /* NearestPizzaTests.m */; };
+		AA8221161BA4B1C90029D8BB /* PizzaListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8221151BA4B1C90029D8BB /* PizzaListViewController.m */; };
+		AA8221191BA4B2F00029D8BB /* MyHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8221181BA4B2F00029D8BB /* MyHelpers.m */; };
+		AA82211B1BA4B4050029D8BB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA82211A1BA4B4050029D8BB /* CoreLocation.framework */; };
+		AA8221201BA4B6E10029D8BB /* BaseNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AA82211D1BA4B6E10029D8BB /* BaseNetManager.m */; };
+		AA8221211BA4B6E10029D8BB /* NetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AA82211F1BA4B6E10029D8BB /* NetManager.m */; };
+		AA8221251BA4BA4F0029D8BB /* LoadMoreTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8221231BA4BA4F0029D8BB /* LoadMoreTableCell.m */; };
+		AA8221261BA4BA4F0029D8BB /* LoadMoreTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA8221241BA4BA4F0029D8BB /* LoadMoreTableCell.xib */; };
+		AA8221291BA4BE900029D8BB /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8221281BA4BE900029D8BB /* Item.m */; };
+		AA82212C1BA4BF040029D8BB /* Item+Ex.m in Sources */ = {isa = PBXBuildFile; fileRef = AA82212B1BA4BF040029D8BB /* Item+Ex.m */; };
+		AA8221301BA4C45F0029D8BB /* ItemViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA82212E1BA4C45F0029D8BB /* ItemViewCell.m */; };
+		AA8221311BA4C45F0029D8BB /* ItemViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA82212F1BA4C45F0029D8BB /* ItemViewCell.xib */; };
+		AA8221341BA4C4DA0029D8BB /* ReusableTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8221331BA4C4DA0029D8BB /* ReusableTableViewCell.m */; };
+		AA8221371BA4CA6D0029D8BB /* RestaurantViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8221361BA4CA6D0029D8BB /* RestaurantViewController.m */; };
+		AA8221411BA4CFE70029D8BB /* New_York_Trip.gpx in Resources */ = {isa = PBXBuildFile; fileRef = AA8221401BA4CFE70029D8BB /* New_York_Trip.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,20 +42,46 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1DC094E478369837E4050107 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		97884152F83DCFE1AAC4D60C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		AA8220E71BA4AF020029D8BB /* NearestPizza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NearestPizza.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA8220EB1BA4AF020029D8BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA8220EC1BA4AF020029D8BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AA8220EE1BA4AF020029D8BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AA8220EF1BA4AF020029D8BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AA8220F21BA4AF020029D8BB /* NearestPizza.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NearestPizza.xcdatamodel; sourceTree = "<group>"; };
-		AA8220F41BA4AF020029D8BB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AA8220F51BA4AF030029D8BB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AA8220F81BA4AF030029D8BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA8220FA1BA4AF030029D8BB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AA8220FD1BA4AF030029D8BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		AA8221031BA4AF030029D8BB /* NearestPizzaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NearestPizzaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA8221081BA4AF030029D8BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA8221091BA4AF030029D8BB /* NearestPizzaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NearestPizzaTests.m; sourceTree = "<group>"; };
+		AA8221131BA4B0720029D8BB /* NearestPizza-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NearestPizza-Prefix.pch"; sourceTree = "<group>"; };
+		AA8221141BA4B1C90029D8BB /* PizzaListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PizzaListViewController.h; sourceTree = "<group>"; };
+		AA8221151BA4B1C90029D8BB /* PizzaListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PizzaListViewController.m; sourceTree = "<group>"; };
+		AA8221171BA4B2F00029D8BB /* MyHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyHelpers.h; sourceTree = "<group>"; };
+		AA8221181BA4B2F00029D8BB /* MyHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyHelpers.m; sourceTree = "<group>"; };
+		AA82211A1BA4B4050029D8BB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		AA82211C1BA4B6E10029D8BB /* BaseNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNetManager.h; sourceTree = "<group>"; };
+		AA82211D1BA4B6E10029D8BB /* BaseNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNetManager.m; sourceTree = "<group>"; };
+		AA82211E1BA4B6E10029D8BB /* NetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetManager.h; sourceTree = "<group>"; };
+		AA82211F1BA4B6E10029D8BB /* NetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetManager.m; sourceTree = "<group>"; };
+		AA8221221BA4BA4F0029D8BB /* LoadMoreTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadMoreTableCell.h; sourceTree = "<group>"; };
+		AA8221231BA4BA4F0029D8BB /* LoadMoreTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadMoreTableCell.m; sourceTree = "<group>"; };
+		AA8221241BA4BA4F0029D8BB /* LoadMoreTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadMoreTableCell.xib; sourceTree = "<group>"; };
+		AA8221271BA4BE900029D8BB /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		AA8221281BA4BE900029D8BB /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		AA82212A1BA4BF040029D8BB /* Item+Ex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Item+Ex.h"; sourceTree = "<group>"; };
+		AA82212B1BA4BF040029D8BB /* Item+Ex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Item+Ex.m"; sourceTree = "<group>"; };
+		AA82212D1BA4C45F0029D8BB /* ItemViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemViewCell.h; sourceTree = "<group>"; };
+		AA82212E1BA4C45F0029D8BB /* ItemViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemViewCell.m; sourceTree = "<group>"; };
+		AA82212F1BA4C45F0029D8BB /* ItemViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemViewCell.xib; sourceTree = "<group>"; };
+		AA8221321BA4C4DA0029D8BB /* ReusableTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReusableTableViewCell.h; sourceTree = "<group>"; };
+		AA8221331BA4C4DA0029D8BB /* ReusableTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReusableTableViewCell.m; sourceTree = "<group>"; };
+		AA8221351BA4CA6D0029D8BB /* RestaurantViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantViewController.h; sourceTree = "<group>"; };
+		AA8221361BA4CA6D0029D8BB /* RestaurantViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantViewController.m; sourceTree = "<group>"; };
+		AA8221401BA4CFE70029D8BB /* New_York_Trip.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = New_York_Trip.gpx; sourceTree = "<group>"; };
+		D94CEC0CA4B9BC3D6B45B979 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +89,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA82211B1BA4B4050029D8BB /* CoreLocation.framework in Frameworks */,
+				1FC91F388C9CF0E2276CCE1A /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,12 +104,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		114A80CB03752AD2812976C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA82211A1BA4B4050029D8BB /* CoreLocation.framework */,
+				1DC094E478369837E4050107 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		454AE456D00E05E7B2AF819A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D94CEC0CA4B9BC3D6B45B979 /* Pods.debug.xcconfig */,
+				97884152F83DCFE1AAC4D60C /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AA8220DE1BA4AF020029D8BB = {
 			isa = PBXGroup;
 			children = (
 				AA8220E91BA4AF020029D8BB /* NearestPizza */,
 				AA8221061BA4AF030029D8BB /* NearestPizzaTests */,
 				AA8220E81BA4AF020029D8BB /* Products */,
+				454AE456D00E05E7B2AF819A /* Pods */,
+				114A80CB03752AD2812976C0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,14 +145,12 @@
 		AA8220E91BA4AF020029D8BB /* NearestPizza */ = {
 			isa = PBXGroup;
 			children = (
-				AA8220EE1BA4AF020029D8BB /* AppDelegate.h */,
-				AA8220EF1BA4AF020029D8BB /* AppDelegate.m */,
-				AA8220F41BA4AF020029D8BB /* ViewController.h */,
-				AA8220F51BA4AF030029D8BB /* ViewController.m */,
 				AA8220F71BA4AF030029D8BB /* Main.storyboard */,
-				AA8220FA1BA4AF030029D8BB /* Images.xcassets */,
-				AA8220FC1BA4AF030029D8BB /* LaunchScreen.xib */,
-				AA8220F11BA4AF020029D8BB /* NearestPizza.xcdatamodeld */,
+				AA8221381BA4CE510029D8BB /* Model */,
+				AA82213A1BA4CE800029D8BB /* Controllers */,
+				AA82213C1BA4CEDD0029D8BB /* Generic classes */,
+				AA82213B1BA4CEAA0029D8BB /* Base classes */,
+				AA8221391BA4CE690029D8BB /* Resources */,
 				AA8220EA1BA4AF020029D8BB /* Supporting Files */,
 			);
 			path = NearestPizza;
@@ -99,8 +159,14 @@
 		AA8220EA1BA4AF020029D8BB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AA8221401BA4CFE70029D8BB /* New_York_Trip.gpx */,
+				AA8220EE1BA4AF020029D8BB /* AppDelegate.h */,
+				AA8220EF1BA4AF020029D8BB /* AppDelegate.m */,
 				AA8220EB1BA4AF020029D8BB /* Info.plist */,
 				AA8220EC1BA4AF020029D8BB /* main.m */,
+				AA8221131BA4B0720029D8BB /* NearestPizza-Prefix.pch */,
+				AA8221171BA4B2F00029D8BB /* MyHelpers.h */,
+				AA8221181BA4B2F00029D8BB /* MyHelpers.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -122,6 +188,80 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		AA8221381BA4CE510029D8BB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AA8220F11BA4AF020029D8BB /* NearestPizza.xcdatamodeld */,
+				AA8221271BA4BE900029D8BB /* Item.h */,
+				AA8221281BA4BE900029D8BB /* Item.m */,
+				AA82212A1BA4BF040029D8BB /* Item+Ex.h */,
+				AA82212B1BA4BF040029D8BB /* Item+Ex.m */,
+				AA82211E1BA4B6E10029D8BB /* NetManager.h */,
+				AA82211F1BA4B6E10029D8BB /* NetManager.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		AA8221391BA4CE690029D8BB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AA8220FA1BA4AF030029D8BB /* Images.xcassets */,
+				AA8220FC1BA4AF030029D8BB /* LaunchScreen.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AA82213A1BA4CE800029D8BB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AA82213E1BA4CF320029D8BB /* Items list view */,
+				AA82213F1BA4CF4A0029D8BB /* Detail view */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		AA82213B1BA4CEAA0029D8BB /* Base classes */ = {
+			isa = PBXGroup;
+			children = (
+				AA8221321BA4C4DA0029D8BB /* ReusableTableViewCell.h */,
+				AA8221331BA4C4DA0029D8BB /* ReusableTableViewCell.m */,
+				AA82211C1BA4B6E10029D8BB /* BaseNetManager.h */,
+				AA82211D1BA4B6E10029D8BB /* BaseNetManager.m */,
+			);
+			name = "Base classes";
+			sourceTree = "<group>";
+		};
+		AA82213C1BA4CEDD0029D8BB /* Generic classes */ = {
+			isa = PBXGroup;
+			children = (
+				AA8221221BA4BA4F0029D8BB /* LoadMoreTableCell.h */,
+				AA8221231BA4BA4F0029D8BB /* LoadMoreTableCell.m */,
+				AA8221241BA4BA4F0029D8BB /* LoadMoreTableCell.xib */,
+			);
+			name = "Generic classes";
+			sourceTree = "<group>";
+		};
+		AA82213E1BA4CF320029D8BB /* Items list view */ = {
+			isa = PBXGroup;
+			children = (
+				AA82212D1BA4C45F0029D8BB /* ItemViewCell.h */,
+				AA82212E1BA4C45F0029D8BB /* ItemViewCell.m */,
+				AA82212F1BA4C45F0029D8BB /* ItemViewCell.xib */,
+				AA8221141BA4B1C90029D8BB /* PizzaListViewController.h */,
+				AA8221151BA4B1C90029D8BB /* PizzaListViewController.m */,
+			);
+			name = "Items list view";
+			sourceTree = "<group>";
+		};
+		AA82213F1BA4CF4A0029D8BB /* Detail view */ = {
+			isa = PBXGroup;
+			children = (
+				AA8221351BA4CA6D0029D8BB /* RestaurantViewController.h */,
+				AA8221361BA4CA6D0029D8BB /* RestaurantViewController.m */,
+			);
+			name = "Detail view";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +269,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA82210D1BA4AF030029D8BB /* Build configuration list for PBXNativeTarget "NearestPizza" */;
 			buildPhases = (
+				78B0874B6B83EA5FF366208E /* Check Pods Manifest.lock */,
 				AA8220E31BA4AF020029D8BB /* Sources */,
 				AA8220E41BA4AF020029D8BB /* Frameworks */,
 				AA8220E51BA4AF020029D8BB /* Resources */,
+				03AB3EFDE0A2F38D0AB6AACA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -203,6 +345,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA8220F91BA4AF030029D8BB /* Main.storyboard in Resources */,
+				AA8221261BA4BA4F0029D8BB /* LoadMoreTableCell.xib in Resources */,
+				AA8221411BA4CFE70029D8BB /* New_York_Trip.gpx in Resources */,
+				AA8221311BA4C45F0029D8BB /* ItemViewCell.xib in Resources */,
 				AA8220FE1BA4AF030029D8BB /* LaunchScreen.xib in Resources */,
 				AA8220FB1BA4AF030029D8BB /* Images.xcassets in Resources */,
 			);
@@ -217,15 +362,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		03AB3EFDE0A2F38D0AB6AACA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78B0874B6B83EA5FF366208E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AA8220E31BA4AF020029D8BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA8221341BA4C4DA0029D8BB /* ReusableTableViewCell.m in Sources */,
+				AA8221291BA4BE900029D8BB /* Item.m in Sources */,
 				AA8220F31BA4AF020029D8BB /* NearestPizza.xcdatamodeld in Sources */,
+				AA8221301BA4C45F0029D8BB /* ItemViewCell.m in Sources */,
+				AA8221251BA4BA4F0029D8BB /* LoadMoreTableCell.m in Sources */,
+				AA8221161BA4B1C90029D8BB /* PizzaListViewController.m in Sources */,
 				AA8220F01BA4AF020029D8BB /* AppDelegate.m in Sources */,
-				AA8220F61BA4AF030029D8BB /* ViewController.m in Sources */,
+				AA8221371BA4CA6D0029D8BB /* RestaurantViewController.m in Sources */,
+				AA8221191BA4B2F00029D8BB /* MyHelpers.m in Sources */,
+				AA8221211BA4B6E10029D8BB /* NetManager.m in Sources */,
+				AA8221201BA4B6E10029D8BB /* BaseNetManager.m in Sources */,
 				AA8220ED1BA4AF020029D8BB /* main.m in Sources */,
+				AA82212C1BA4BF040029D8BB /* Item+Ex.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,9 +538,12 @@
 		};
 		AA82210E1BA4AF030029D8BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D94CEC0CA4B9BC3D6B45B979 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "NearestPizza/NearestPizza-Prefix.pch";
 				INFOPLIST_FILE = NearestPizza/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -361,9 +551,12 @@
 		};
 		AA82210F1BA4AF030029D8BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97884152F83DCFE1AAC4D60C /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "NearestPizza/NearestPizza-Prefix.pch";
 				INFOPLIST_FILE = NearestPizza/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -422,6 +615,7 @@
 				AA82210F1BA4AF030029D8BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA8221101BA4AF030029D8BB /* Build configuration list for PBXNativeTarget "NearestPizzaTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +624,7 @@
 				AA8221121BA4AF030029D8BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

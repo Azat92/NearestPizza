@@ -1,0 +1,42 @@
+PODS:
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - MagicalRecord (2.3.0)
+  - MBProgressHUD (0.9.1)
+  - MYHelpers (1.0.1)
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
+
+DEPENDENCIES:
+  - BlocksKit
+  - MagicalRecord
+  - MBProgressHUD
+  - MYHelpers (from `https://raw.githubusercontent.com/AlexandrGraschenkov/MYHelpers/master/MYHelpers.podspec.json`)
+  - SDWebImage
+
+EXTERNAL SOURCES:
+  MYHelpers:
+    :podspec: https://raw.githubusercontent.com/AlexandrGraschenkov/MYHelpers/master/MYHelpers.podspec.json
+
+SPEC CHECKSUMS:
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  MagicalRecord: 89eb7d7ead39fb37f01c3d010665ee94d17f8dba
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  MYHelpers: 217c1a98608cdca493550bc60e549c6d10489394
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+
+COCOAPODS: 0.38.2

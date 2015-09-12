@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PizzaListViewController.h
 //  NearestPizza
 //
 //  Created by Azat Almeev on 12.09.15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface PizzaListViewController : UITableViewController
 
 @end
-
